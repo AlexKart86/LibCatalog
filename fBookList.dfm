@@ -194,7 +194,7 @@ inherited frmBookList: TfrmBookList
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 40818.922330000000000000
-    ReportOptions.LastChange = 40826.969012766200000000
+    ReportOptions.LastChange = 42261.980053194440000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -285,8 +285,8 @@ inherited frmBookList: TfrmBookList
         end
         object Memo6: TfrxMemoView
           Left = 502.677490000000000000
-          Top = 68.031540000000010000
-          Width = 75.590600000000000000
+          Top = 68.031540000000000000
+          Width = 49.133890000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -299,9 +299,9 @@ inherited frmBookList: TfrmBookList
           ParentFont = False
         end
         object Memo10: TfrxMemoView
-          Left = 604.724800000000000000
-          Top = 68.031540000000010000
-          Width = 94.488250000000000000
+          Left = 566.929500000000000000
+          Top = 68.031540000000000000
+          Width = 68.031540000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -313,6 +313,111 @@ inherited frmBookList: TfrmBookList
             #1042#1072#1088#1090#1110#1089#1090#1100)
           ParentFont = False
         end
+        object Memo12: TfrxMemoView
+          Left = 502.677490000000000000
+          Top = 41.574830000000000000
+          Width = 132.283550000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haCenter
+          Memo.UTF8W = (
+            #1047#1072#1088#1077#1108#1089#1090#1088#1086#1074#1072#1085#1086)
+          ParentFont = False
+        end
+        object Memo13: TfrxMemoView
+          Left = 650.079160000000000000
+          Top = 68.031540000000000000
+          Width = 49.133890000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            #1045#1082#1079'.')
+          ParentFont = False
+        end
+        object Memo14: TfrxMemoView
+          Left = 714.331170000000000000
+          Top = 68.031540000000000000
+          Width = 68.031540000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            #1042#1072#1088#1090#1110#1089#1090#1100)
+          ParentFont = False
+        end
+        object Memo15: TfrxMemoView
+          Left = 650.079160000000000000
+          Top = 41.574830000000000000
+          Width = 132.283550000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haCenter
+          Memo.UTF8W = (
+            #1057#1087#1080#1089#1072#1085#1086)
+          ParentFont = False
+        end
+        object Memo16: TfrxMemoView
+          Left = 801.260360000000000000
+          Top = 68.031540000000000000
+          Width = 49.133890000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            #1045#1082#1079'.')
+          ParentFont = False
+        end
+        object Memo17: TfrxMemoView
+          Left = 865.512370000000000000
+          Top = 68.031540000000000000
+          Width = 68.031540000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            #1042#1072#1088#1090#1110#1089#1090#1100)
+          ParentFont = False
+        end
+        object Memo18: TfrxMemoView
+          Left = 801.260360000000000000
+          Top = 41.574830000000000000
+          Width = 132.283550000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haCenter
+          Memo.UTF8W = (
+            #1047#1072#1083#1080#1096#1086#1082)
+          ParentFont = False
+        end
       end
       object ReportSummary1: TfrxReportSummary
         FillType = ftBrush
@@ -321,8 +426,8 @@ inherited frmBookList: TfrmBookList
         Width = 1046.929810000000000000
         object Memo8: TfrxMemoView
           Left = 502.677490000000000000
-          Top = 11.338590000000010000
-          Width = 79.370130000000000000
+          Top = 11.338590000000000000
+          Width = 49.133858270000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -343,9 +448,9 @@ inherited frmBookList: TfrmBookList
             #1042#1089#1100#1086#1075#1086' '#1087#1088#1080#1084#1110#1088#1085#1080#1082#1110#1074)
         end
         object Memo11: TfrxMemoView
-          Left = 604.724800000000000000
-          Top = 11.338590000000010000
-          Width = 94.488250000000000000
+          Left = 570.709030000000000000
+          Top = 11.338590000000000000
+          Width = 68.031496060000000000
           Height = 18.897650000000000000
           DisplayFormat.FormatStr = '%2.2f'
           DisplayFormat.Kind = fkNumeric
@@ -357,6 +462,70 @@ inherited frmBookList: TfrmBookList
           HAlign = haRight
           Memo.UTF8W = (
             '[SUM(<frxDBDataset1."TOTAL_PRICE">,MasterData1)]')
+          ParentFont = False
+        end
+        object Memo23: TfrxMemoView
+          Left = 653.858690000000000000
+          Top = 11.338590000000000000
+          Width = 49.133858270000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold, fsUnderline]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."CNT_DELETE">,MasterData1)]')
+          ParentFont = False
+        end
+        object Memo24: TfrxMemoView
+          Left = 721.890230000000000000
+          Top = 11.338590000000000000
+          Width = 68.031496060000000000
+          Height = 18.897650000000000000
+          DisplayFormat.FormatStr = '%2.2f'
+          DisplayFormat.Kind = fkNumeric
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold, fsUnderline]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."PRICE_DELETE">,MasterData1)]')
+          ParentFont = False
+        end
+        object Memo25: TfrxMemoView
+          Left = 801.260360000000000000
+          Top = 11.338590000000000000
+          Width = 49.133858270000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold, fsUnderline]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."CNT_REMAIN">,MasterData1)]')
+          ParentFont = False
+        end
+        object Memo26: TfrxMemoView
+          Left = 869.291900000000000000
+          Top = 11.338590000000000000
+          Width = 68.031496060000000000
+          Height = 18.897650000000000000
+          DisplayFormat.FormatStr = '%2.2f'
+          DisplayFormat.Kind = fkNumeric
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold, fsUnderline]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."PRICE_REMAIN">,MasterData1)]')
           ParentFont = False
         end
       end
@@ -400,7 +569,7 @@ inherited frmBookList: TfrmBookList
         end
         object frxDBDataset1COPY_CNT: TfrxMemoView
           Left = 502.677490000000000000
-          Width = 79.370130000000000000
+          Width = 49.133858270000000000
           Height = 18.897650000000000000
           DataField = 'COPY_CNT'
           DataSet = frxDBDataset1
@@ -416,8 +585,8 @@ inherited frmBookList: TfrmBookList
           ParentFont = False
         end
         object frxDBDataset1TOTAL_PRICE: TfrxMemoView
-          Left = 604.724800000000000000
-          Width = 94.488250000000000000
+          Left = 566.929500000000000000
+          Width = 68.031496060000000000
           Height = 18.897650000000000000
           DataField = 'TOTAL_PRICE'
           DataSet = frxDBDataset1
@@ -432,6 +601,78 @@ inherited frmBookList: TfrmBookList
           HAlign = haRight
           Memo.UTF8W = (
             '[frxDBDataset1."TOTAL_PRICE"]')
+          ParentFont = False
+        end
+        object Memo19: TfrxMemoView
+          Left = 650.079160000000000000
+          Width = 49.133858270000000000
+          Height = 18.897650000000000000
+          DataField = 'CNT_DELETE'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[frxDBDataset1."CNT_DELETE"]')
+          ParentFont = False
+        end
+        object Memo20: TfrxMemoView
+          Left = 714.331170000000000000
+          Width = 68.031496060000000000
+          Height = 18.897650000000000000
+          DataField = 'PRICE_DELETE'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          DisplayFormat.FormatStr = '%2.2f'
+          DisplayFormat.Kind = fkNumeric
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[frxDBDataset1."PRICE_DELETE"]')
+          ParentFont = False
+        end
+        object Memo21: TfrxMemoView
+          Left = 801.260360000000000000
+          Width = 49.133858270000000000
+          Height = 18.897650000000000000
+          DataField = 'CNT_REMAIN'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[frxDBDataset1."CNT_REMAIN"]')
+          ParentFont = False
+        end
+        object Memo22: TfrxMemoView
+          Left = 865.512370000000000000
+          Width = 68.031496060000000000
+          Height = 18.897650000000000000
+          DataField = 'PRICE_REMAIN'
+          DataSet = frxDBDataset1
+          DataSetName = 'frxDBDataset1'
+          DisplayFormat.FormatStr = '%2.2f'
+          DisplayFormat.Kind = fkNumeric
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[frxDBDataset1."PRICE_REMAIN"]')
           ParentFont = False
         end
       end
@@ -479,7 +720,7 @@ inherited frmBookList: TfrmBookList
         Width = 1046.929810000000000000
         object SysMemo1: TfrxSysMemoView
           Left = 502.677490000000000000
-          Width = 79.370130000000000000
+          Width = 49.133858270000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -505,8 +746,8 @@ inherited frmBookList: TfrmBookList
           ParentFont = False
         end
         object SysMemo2: TfrxSysMemoView
-          Left = 604.724800000000000000
-          Width = 94.488250000000000000
+          Left = 566.929500000000000000
+          Width = 68.031496060000000000
           Height = 18.897650000000000000
           DisplayFormat.FormatStr = '%2.2f'
           DisplayFormat.Kind = fkNumeric
@@ -518,6 +759,66 @@ inherited frmBookList: TfrmBookList
           HAlign = haRight
           Memo.UTF8W = (
             '[SUM(<frxDBDataset1."TOTAL_PRICE">,MasterData1)]')
+          ParentFont = False
+        end
+        object SysMemo3: TfrxSysMemoView
+          Left = 650.079160000000000000
+          Width = 49.133858270000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."CNT_DELETE">,MasterData1)]')
+          ParentFont = False
+        end
+        object SysMemo4: TfrxSysMemoView
+          Left = 714.331170000000000000
+          Width = 68.031496060000000000
+          Height = 18.897650000000000000
+          DisplayFormat.FormatStr = '%2.2f'
+          DisplayFormat.Kind = fkNumeric
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."PRICE_DELETE">,MasterData1)]')
+          ParentFont = False
+        end
+        object SysMemo5: TfrxSysMemoView
+          Left = 801.260360000000000000
+          Width = 49.133858270000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."CNT_REMAIN">,MasterData1)]')
+          ParentFont = False
+        end
+        object SysMemo6: TfrxSysMemoView
+          Left = 865.512370000000000000
+          Width = 68.031496060000000000
+          Height = 18.897650000000000000
+          DisplayFormat.FormatStr = '%2.2f'
+          DisplayFormat.Kind = fkNumeric
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haRight
+          Memo.UTF8W = (
+            '[SUM(<frxDBDataset1."PRICE_REMAIN">,MasterData1)]')
           ParentFont = False
         end
       end
@@ -545,7 +846,12 @@ inherited frmBookList: TfrmBookList
       'COPY_CNT=COPY_CNT'
       'AUTORS=AUTORS'
       'PRODUCER_NAME=PRODUCER_NAME'
-      'TOTAL_PRICE=TOTAL_PRICE')
+      'TOTAL_PRICE=TOTAL_PRICE'
+      'PHOTO=PHOTO'
+      'PRICE_DELETE=PRICE_DELETE'
+      'CNT_DELETE=CNT_DELETE'
+      'PRICE_REMAIN=PRICE_REMAIN'
+      'CNT_REMAIN=CNT_REMAIN')
     DataSet = ibqReport
     BCDToCurrency = False
     Left = 296
