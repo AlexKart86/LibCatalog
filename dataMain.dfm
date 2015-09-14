@@ -3,13 +3,13 @@ object dmMain: TdmMain
   Height = 263
   Width = 327
   object dbMain: TIBDatabase
-    DatabaseName = 
-      'C:\Program Files\Borland\Delphi7\Projects\Library_catalog\LIB.FD' +
-      'B'
+    Connected = True
+    DatabaseName = 'E:\'#1042#1072#1078#1085#1086#1077'\LibCatalog\LIB.FDB'
     Params.Strings = (
       'user_name=admin')
     LoginPrompt = False
     DefaultTransaction = ibtMain
+    ServerType = 'IBServer'
     Left = 32
     Top = 24
   end

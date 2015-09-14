@@ -4,8 +4,8 @@ inherited frmBookList: TfrmBookList
   ClientWidth = 718
   Position = poDesigned
   OnShow = FormShow
-  ExplicitWidth = 726
-  ExplicitHeight = 581
+  ExplicitWidth = 734
+  ExplicitHeight = 585
   PixelsPerInch = 96
   TextHeight = 13
   object Splitter1: TSplitter [0]
@@ -51,12 +51,14 @@ inherited frmBookList: TfrmBookList
       OnDblClick = dbgMainDblClick
       Columns = <
         item
+          DynProps = <>
           EditButtons = <>
           FieldName = 'AUTOR'
           Footers = <>
           Width = 110
         end
         item
+          DynProps = <>
           EditButtons = <>
           FieldName = 'BOOK_NAME'
           Footer.FieldName = 'BOOK_ID'
@@ -65,12 +67,14 @@ inherited frmBookList: TfrmBookList
           Width = 240
         end
         item
+          DynProps = <>
           EditButtons = <>
           FieldName = 'RELEASE_YEAR'
           Footers = <>
           Width = 88
         end
         item
+          DynProps = <>
           EditButtons = <>
           FieldName = 'CL_NAME'
           Footers = <>
@@ -182,7 +186,7 @@ inherited frmBookList: TfrmBookList
     end
   end
   object frxReport1: TfrxReport
-    Version = '4.9'
+    Version = '5.2.3'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -219,6 +223,7 @@ inherited frmBookList: TfrmBookList
       TopMargin = 10.000000000000000000
       BottomMargin = 10.000000000000000000
       object ReportTitle1: TfrxReportTitle
+        FillType = ftBrush
         Height = 86.929190000000000000
         Top = 18.897650000000000000
         Width = 1046.929810000000000000
@@ -226,7 +231,6 @@ inherited frmBookList: TfrmBookList
           Left = 22.677180000000000000
           Width = 275.905690000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Memo.UTF8W = (
             #1060#1086#1085#1076#1099' '#1091#1095#1077#1073#1085#1080#1082#1086#1074' '#1087#1086' '#1089#1086#1089#1090#1086#1103#1085#1080#1102' '#1085#1072' '#1076#1072#1090#1091':')
         end
@@ -234,7 +238,6 @@ inherited frmBookList: TfrmBookList
           Left = 381.732530000000000000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Memo.UTF8W = (
             '[Date]')
         end
@@ -243,7 +246,6 @@ inherited frmBookList: TfrmBookList
           Top = 68.031540000000010000
           Width = 188.976500000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -258,7 +260,6 @@ inherited frmBookList: TfrmBookList
           Top = 68.031540000000010000
           Width = 170.078850000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -273,7 +274,6 @@ inherited frmBookList: TfrmBookList
           Top = 68.031540000000010000
           Width = 86.929190000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -288,7 +288,6 @@ inherited frmBookList: TfrmBookList
           Top = 68.031540000000010000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -304,7 +303,6 @@ inherited frmBookList: TfrmBookList
           Top = 68.031540000000010000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -317,6 +315,7 @@ inherited frmBookList: TfrmBookList
         end
       end
       object ReportSummary1: TfrxReportSummary
+        FillType = ftBrush
         Height = 41.574830000000000000
         Top = 336.378170000000000000
         Width = 1046.929810000000000000
@@ -325,7 +324,6 @@ inherited frmBookList: TfrmBookList
           Top = 11.338590000000010000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -341,7 +339,6 @@ inherited frmBookList: TfrmBookList
           Top = 11.338590000000010000
           Width = 136.063080000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Memo.UTF8W = (
             #1042#1089#1100#1086#1075#1086' '#1087#1088#1080#1084#1110#1088#1085#1080#1082#1110#1074)
         end
@@ -350,7 +347,6 @@ inherited frmBookList: TfrmBookList
           Top = 11.338590000000010000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DisplayFormat.FormatStr = '%2.2f'
           DisplayFormat.Kind = fkNumeric
           Font.Charset = DEFAULT_CHARSET
@@ -365,6 +361,7 @@ inherited frmBookList: TfrmBookList
         end
       end
       object MasterData1: TfrxMasterData
+        FillType = ftBrush
         Height = 18.897650000000000000
         Top = 211.653680000000000000
         Width = 1046.929810000000000000
@@ -375,7 +372,6 @@ inherited frmBookList: TfrmBookList
           Left = 3.779530000000000000
           Width = 188.976500000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DataField = 'BOOK_NAME'
           DataSet = frxDBDataset1
           DataSetName = 'frxDBDataset1'
@@ -386,7 +382,6 @@ inherited frmBookList: TfrmBookList
           Left = 204.094620000000000000
           Width = 170.078850000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DataField = 'AUTORS'
           DataSet = frxDBDataset1
           DataSetName = 'frxDBDataset1'
@@ -397,7 +392,6 @@ inherited frmBookList: TfrmBookList
           Left = 393.071120000000000000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DataField = 'RELEASE_YEAR'
           DataSet = frxDBDataset1
           DataSetName = 'frxDBDataset1'
@@ -408,7 +402,6 @@ inherited frmBookList: TfrmBookList
           Left = 502.677490000000000000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DataField = 'COPY_CNT'
           DataSet = frxDBDataset1
           DataSetName = 'frxDBDataset1'
@@ -426,7 +419,6 @@ inherited frmBookList: TfrmBookList
           Left = 604.724800000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DataField = 'TOTAL_PRICE'
           DataSet = frxDBDataset1
           DataSetName = 'frxDBDataset1'
@@ -444,6 +436,7 @@ inherited frmBookList: TfrmBookList
         end
       end
       object GroupHeader1: TfrxGroupHeader
+        FillType = ftBrush
         Height = 22.677180000000000000
         Top = 166.299320000000000000
         Width = 1046.929810000000000000
@@ -453,7 +446,6 @@ inherited frmBookList: TfrmBookList
           Left = 113.385900000000000000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DataField = 'CLASS'
           DataSet = frxDBDataset1
           DataSetName = 'frxDBDataset1'
@@ -470,7 +462,6 @@ inherited frmBookList: TfrmBookList
           Left = 207.874150000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -482,6 +473,7 @@ inherited frmBookList: TfrmBookList
         end
       end
       object GroupFooter1: TfrxGroupFooter
+        FillType = ftBrush
         Height = 22.677180000000000000
         Top = 253.228510000000000000
         Width = 1046.929810000000000000
@@ -489,7 +481,6 @@ inherited frmBookList: TfrmBookList
           Left = 502.677490000000000000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -504,7 +495,6 @@ inherited frmBookList: TfrmBookList
           Left = 340.157700000000000000
           Width = 143.622140000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -518,7 +508,6 @@ inherited frmBookList: TfrmBookList
           Left = 604.724800000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
-          ShowHint = False
           DisplayFormat.FormatStr = '%2.2f'
           DisplayFormat.Kind = fkNumeric
           Font.Charset = DEFAULT_CHARSET
@@ -571,6 +560,7 @@ inherited frmBookList: TfrmBookList
     UseFileCache = True
     ShowProgress = True
     OverwritePrompt = False
+    DataOnly = False
     ExportEMF = True
     OpenExcelAfterExport = True
     AsText = False
@@ -586,14 +576,33 @@ inherited frmBookList: TfrmBookList
     Database = dmMain.dbMain
     Transaction = dmMain.ibtMain
     SQL.Strings = (
-      'select B.*,'
+      '      select B.*,'
       
         '       coalesce(DA.LAST_NAME, '#39#39') || coalesce('#39' '#39' || DA.FIRST_NA' +
         'ME, '#39#39') || coalesce('#39' '#39' || DA.MIDDLE_NAME, '#39#39') as AUTORS,'
       '       dp.producer_name,'
       '       (select sum(bt.cnt*bt.price)'
       '        from book_trans bt'
-      '        where bt.book_id = b.book_id) total_price'
+      '        where bt.book_id = b.book_id) total_price,'
+      '       (select sum(bt.cnt*bt.price)'
+      '        from book_trans bt'
+      
+        '        where bt.book_id = b.book_id and bt.date_delete is not n' +
+        'ull) price_delete,'
+      '        (select sum(bt.cnt)'
+      '        from book_trans bt'
+      
+        '        where bt.book_id = b.book_id and bt.date_delete is not n' +
+        'ull) cnt_delete,'
+      '        (select sum(bt.cnt*bt.price)'
+      '        from book_trans bt'
+      '        where bt.book_id = b.book_id'
+      '        and bt.date_delete is null) price_remain,'
+      '        b.copy_cnt - coalesce( (select sum(bt.cnt)'
+      '        from book_trans bt'
+      '        where bt.book_id = b.book_id'
+      '        and bt.date_delete is not null), 0) cnt_remain'
+      ''
       'from BOOKS B'
       'left join DICT_AUTOR DA on (B.AUTOR_ID = DA.AUTOR_ID)'
       'left join DICT_PRODUCER DP on (B.PRODUCER_ID = DP.PRODUCER_ID)  '
@@ -687,6 +696,28 @@ inherited frmBookList: TfrmBookList
     end
     object ibqReportTOTAL_PRICE: TFloatField
       FieldName = 'TOTAL_PRICE'
+      ProviderFlags = []
+    end
+    object ibqReportPHOTO: TBlobField
+      FieldName = 'PHOTO'
+      Origin = '"BOOKS"."PHOTO"'
+      ProviderFlags = [pfInUpdate]
+      Size = 8
+    end
+    object ibqReportPRICE_DELETE: TFloatField
+      FieldName = 'PRICE_DELETE'
+      ProviderFlags = []
+    end
+    object ibqReportCNT_DELETE: TLargeintField
+      FieldName = 'CNT_DELETE'
+      ProviderFlags = []
+    end
+    object ibqReportPRICE_REMAIN: TFloatField
+      FieldName = 'PRICE_REMAIN'
+      ProviderFlags = []
+    end
+    object ibqReportCNT_REMAIN: TLargeintField
+      FieldName = 'CNT_REMAIN'
       ProviderFlags = []
     end
   end

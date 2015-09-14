@@ -6,7 +6,8 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, fDictionary, DBGridEhGrouping, GridsEh, DBGridEh, ActnList, DB,
   IBCustomDataSet, ComCtrls, ToolWin, StdCtrls, ExtCtrls, IBQuery, IBTable,
-  frxClass, frxDBSet, frxIBXComponents, frxExportXLS;
+  frxClass, frxDBSet, frxIBXComponents, frxExportXLS, ToolCtrlsEh,
+  DBGridEhToolCtrls, DynVarsEh, DBAxisGridsEh;
 
 type
   TfrmBookList = class(TfrmDictionary)
@@ -46,6 +47,11 @@ type
     ibqReportAUTORS: TIBStringField;
     ibqReportPRODUCER_NAME: TIBStringField;
     ibqReportTOTAL_PRICE: TFloatField;
+    ibqReportPHOTO: TBlobField;
+    ibqReportPRICE_DELETE: TFloatField;
+    ibqReportCNT_DELETE: TLargeintField;
+    ibqReportPRICE_REMAIN: TFloatField;
+    ibqReportCNT_REMAIN: TLargeintField;
     procedure acAddExecute(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure acEditExecute(Sender: TObject);
