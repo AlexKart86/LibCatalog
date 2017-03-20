@@ -5,7 +5,8 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, fTempl, dataMain, ExtCtrls, DB, IBCustomDataSet, DBGridEhGrouping,
-  ComCtrls, ToolWin, GridsEh, DBGridEh, ActnList, StdCtrls;
+  ComCtrls, ToolWin, GridsEh, DBGridEh, ActnList, StdCtrls, ToolCtrlsEh,
+  DBGridEhToolCtrls, DynVarsEh, DBAxisGridsEh;
 
 type
   TfrmDictionary = class(TfrmTempl)
@@ -59,7 +60,7 @@ type
 
 implementation
 
-uses uUtils;
+uses uUtils, EhLibIBX;
 {$R *.dfm}
 { TfrmDictionary }
 

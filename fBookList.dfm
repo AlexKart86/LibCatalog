@@ -43,6 +43,7 @@ inherited frmBookList: TfrmBookList
     inherited dbgMain: TDBGridEh
       Width = 539
       Height = 438
+      TabStop = False
       AllowedOperations = []
       AutoFitColWidths = True
       FooterRowCount = 1
@@ -123,7 +124,8 @@ inherited frmBookList: TfrmBookList
       'from BOOKS B'
       'left join DICT_AUTOR DA on (B.AUTOR_ID = DA.AUTOR_ID)'
       'where (B.BOOK_TYPE_ID = :BOOK_TYPE_ID or :BOOK_TYPE_ID = -1) and'
-      '    (b.class = :CLASS_ID or :CLASS_ID = -1)')
+      '    (b.class = :CLASS_ID or :CLASS_ID = -1)'
+      'order by release_year')
     object ibdMainBOOK_NAME: TIBStringField
       DisplayLabel = #1053#1072#1079#1074#1072' '#1082#1085#1080#1075#1080
       FieldName = 'BOOK_NAME'

@@ -5,8 +5,8 @@ inherited frmDictionary: TfrmDictionary
   FormStyle = fsNormal
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  ExplicitWidth = 613
-  ExplicitHeight = 457
+  ExplicitWidth = 621
+  ExplicitHeight = 461
   PixelsPerInch = 96
   TextHeight = 13
   object pnlFooter: TPanel
@@ -89,29 +89,18 @@ inherited frmDictionary: TfrmDictionary
       Height = 314
       Align = alClient
       ColumnDefValues.Title.TitleButton = True
-      DataGrouping.GroupLevels = <>
       DataSource = dsMain
-      Flat = False
+      DynProps = <>
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -13
       Font.Name = 'Tahoma'
       Font.Style = []
-      FooterColor = clWindow
-      FooterFont.Charset = DEFAULT_CHARSET
-      FooterFont.Color = clWindowText
-      FooterFont.Height = -11
-      FooterFont.Name = 'Tahoma'
-      FooterFont.Style = []
+      FooterParams.Color = clWindow
+      IndicatorOptions = [gioShowRowIndicatorEh]
       OptionsEh = [dghFixed3D, dghHighlightFocus, dghClearSelection, dghAutoSortMarking, dghMultiSortMarking, dghDialogFind, dghColumnResize, dghColumnMove, dghExtendVertLines]
       ParentFont = False
-      RowDetailPanel.Color = clBtnFace
       TabOrder = 0
-      TitleFont.Charset = DEFAULT_CHARSET
-      TitleFont.Color = clWindowText
-      TitleFont.Height = -13
-      TitleFont.Name = 'Tahoma'
-      TitleFont.Style = []
       object RowDetailData: TRowDetailPanelControlEh
       end
     end
